@@ -1,0 +1,36 @@
+{
+  "name": "berthott/laravel-scopeable",
+  "description": "Laravel helper for permission scopes",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Jan Bladt",
+          "email": "berthott@web.de"
+      }
+  ],
+  "autoload" : {
+      "psr-4" : {
+          "berthott\\Scopeable\\": "src"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "berthott\\Scopeable\\Tests\\": "tests"
+      }
+  },
+  "extra" : {
+      "laravel" : {
+          "providers" : [
+              "berthott\\Scopeable\\ScopeableServiceProvider"
+          ]
+      }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0",
+    "phpunit/phpunit": "^9.5",
+    "doctrine/dbal": "^3.3"
+  },
+  "require": {
+    "haydenpierce/class-finder": "^0.4.3"
+  }
+}
