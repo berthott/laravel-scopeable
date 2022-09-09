@@ -1,6 +1,6 @@
 # Laravel-Scopeable - A helper for permission scopes in Laravel
 
-This is a helper to add permission scopes to your model by adding a trait. It's used by [laravel-crudable](https://github.com/berthott/laravel-crudable).
+This is a helper to add permission scopes to your model by adding a trait. It's used by [laravel-crudable](https://github.com/berthott/laravel-crudable) and [laravel-sheetable](https://github.com/syspons-dev/laravel-sheetable).
 
 ## Installation
 
