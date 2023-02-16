@@ -80,8 +80,5 @@ abstract class TestCase extends BaseTestCase
             $table->foreign('scopeable_many_id')->references('id')->on('scopeable_manies')->onDelete('cascade');
             $table->foreign('entity_many_id')->references('id')->on('entity_manies')->onDelete('cascade');
         });
-
-        // for delete cascadation, is disabled in sqlite by default
-        DB::statement(DB::raw('PRAGMA foreign_keys=1'));
     }
 }
