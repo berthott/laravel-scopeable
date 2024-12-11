@@ -1,6 +1,6 @@
 ![test workflow](https://github.com/berthott/laravel-scopeable/actions/workflows/test.yml/badge.svg)
 
-# Laravel-Scopeable - A helper for permission scopes in Laravel![test workflow](https://github.com/berthott/laravel-crudable/actions/workflows/test.yml/badge.svg)
+# Laravel-Scopeable - A helper for permission scopes in Laravel
 
 
 
