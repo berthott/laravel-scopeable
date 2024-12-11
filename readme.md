@@ -1,4 +1,8 @@
-# Laravel-Scopeable - A helper for permission scopes in Laravel
+![test workflow](https://github.com/berthott/laravel-scopeable/actions/workflows/test.yml/badge.svg)
+
+# Laravel-Scopeable - A helper for permission scopes in Laravel![test workflow](https://github.com/berthott/laravel-crudable/actions/workflows/test.yml/badge.svg)
+
+
 
 This is a helper to add permission scopes to your model by adding a trait. It's used by [laravel-crudable](https://github.com/berthott/laravel-crudable) and [laravel-sheetable](https://github.com/syspons-dev/laravel-sheetable).
 
